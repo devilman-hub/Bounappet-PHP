@@ -1,0 +1,64 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #f1a311, hsl(48, 100%, 83%));
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: center;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #f1a311;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #f1a311;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: #f1a311;
+}
+
+.registro {
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.registro a {
+  color: #f1a311;
+  text-decoration: none;
+}
